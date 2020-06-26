@@ -1,6 +1,29 @@
 {
     "version": "2.0.0",
-    "tasks": [
+    "tasks": [        
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/CodingGym05.ShoppingCart/CodingGym05.ShoppingCart.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },{
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/CodingGym04.NumberGuessingGame/CodingGym04.NumberGuessingGame.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
         {
             "label": "build",
             "command": "dotnet",
