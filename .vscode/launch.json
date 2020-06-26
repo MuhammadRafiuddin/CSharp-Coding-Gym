@@ -5,6 +5,17 @@
    "version": "0.2.0",
    "configurations": [
         {
+            "name": ".NET Core Launch CodingGym14",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CodingGym14.GetWebServiceAsync/bin/Debug/netcoreapp3.1/CodingGym14.GetWebServiceAsync.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CodingGym14.GetWebServiceAsync",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": ".NET Core Launch CodingGym13",
             "type": "coreclr",
             "request": "launch",

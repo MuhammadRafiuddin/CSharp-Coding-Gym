@@ -7,6 +7,18 @@
             "type": "process",
             "args": [
                 "build",
+                "${workspaceFolder}/CodingGym14.GetWebServiceAsync/CodingGym14.GetWebServiceAsync.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
                 "${workspaceFolder}/CodingGym13.Phonebook/CodingGym13.Phonebook.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
