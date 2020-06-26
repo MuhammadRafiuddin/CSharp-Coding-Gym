@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingGym08.HangmanGame.Lis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingGym09.BankTransactionSimulation", "CodingGym09.BankTransactionSimulation\CodingGym09.BankTransactionSimulation.csproj", "{42AB74AD-738A-48FA-A373-D01012292C67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingGym10.ShoppingCart.DelegateDict", "CodingGym10.ShoppingCart.DelegateDict\CodingGym10.ShoppingCart.DelegateDict.csproj", "{F36697A5-DD49-402B-9226-63788F8C016F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -142,5 +144,17 @@ Global
 		{42AB74AD-738A-48FA-A373-D01012292C67}.Release|x64.Build.0 = Release|Any CPU
 		{42AB74AD-738A-48FA-A373-D01012292C67}.Release|x86.ActiveCfg = Release|Any CPU
 		{42AB74AD-738A-48FA-A373-D01012292C67}.Release|x86.Build.0 = Release|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Debug|x64.Build.0 = Debug|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Debug|x86.Build.0 = Debug|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Release|x64.ActiveCfg = Release|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Release|x64.Build.0 = Release|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Release|x86.ActiveCfg = Release|Any CPU
+		{F36697A5-DD49-402B-9226-63788F8C016F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
