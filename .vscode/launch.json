@@ -5,13 +5,24 @@
    "version": "0.2.0",
    "configurations": [
         {
+            "name": ".NET Core Launch CodingGym06",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CodingGym06.CrapsGame/bin/Debug/netcoreapp3.1/<project-name.dll>",
+            "args": [],
+            "cwd": "${workspaceFolder}/CodingGym06.CrapsGame",
+            "stopAtEntry": false,
+            "console": "externalTerminal"
+        },
+        {
             "name": ".NET Core Launch CodingGym05",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/CodingGym05.ShoppingCart/bin/Debug/netcoreapp3.1/CodingGym05.ShoppingCart.dll",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/CodingGym05.ShoppingCart",
             "stopAtEntry": false,
             "console": "externalTerminal"
         },
