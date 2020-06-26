@@ -4,28 +4,39 @@
    // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
    "version": "0.2.0",
    "configurations": [
-       {
-           "name": ".NET Core Launch CodingGym09",
-           "type": "coreclr",
-           "request": "launch",
-           "preLaunchTask": "build",
-           "program": "${workspaceFolder}/CodingGym09.BankTransactionSimulation/bin/Debug/<target-framework>/CodingGym09.BankTransactionSimulation.dll",
-           "args": [],
-           "cwd": "${workspaceFolder}/CodingGym09.BankTransactionSimulation",
-           "stopAtEntry": false,
-           "console": "internalConsole"
-       },
-       {
-           "name": ".NET Core Launch CodingGym08",
-           "type": "coreclr",
-           "request": "launch",
-           "preLaunchTask": "build",
-           "program": "${workspaceFolder}/CodingGym08.HangmanGame.List/bin/Debug/netcoreapp3.1/CodingGym08.HangmanGame.List.dll",
-           "args": [],
-           "cwd": "${workspaceFolder}/CodingGym08.HangmanGame.List",
-           "stopAtEntry": false,
-           "console": "internalConsole"
-       },
+        {
+            "name": ".NET Core Launch CodingGym10",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CodingGym10.ShoppingCart.DelegateDict/bin/Debug/netcoreapp3.1/CodingGym10.ShoppingCart.DelegateDict.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": ".NET Core Launch CodingGym09",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CodingGym09.BankTransactionSimulation/bin/Debug/netcoreapp3.1/CodingGym09.BankTransactionSimulation.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CodingGym09.BankTransactionSimulation",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": ".NET Core Launch CodingGym08",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CodingGym08.HangmanGame.List/bin/Debug/netcoreapp3.1/CodingGym08.HangmanGame.List.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CodingGym08.HangmanGame.List",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
         {
             "name": ".NET Core Launch CodingGym07",
             "type": "coreclr",
