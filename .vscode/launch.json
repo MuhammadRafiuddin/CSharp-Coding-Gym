@@ -5,7 +5,18 @@
    "version": "0.2.0",
    "configurations": [
         {
-            "name": ".NET Core Launch (console)",
+            "name": ".NET Core Launch CodingGym13",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CodingGym13.Phonebook/bin/Debug/netcoreapp3.1/CodingGym13.Phonebook.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CodingGym13.Phonebook",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": ".NET Core Launch CodingGym13",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
