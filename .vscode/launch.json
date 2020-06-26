@@ -9,6 +9,17 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CodingGym12.BankTransactionSimulation.EventArgs/bin/Debug/netcoreapp3.1/CodingGym12.BankTransactionSimulation.EventArgs.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CodingGym12.BankTransactionSimulation.EventArgs",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": ".NET Core Launch CodingGym11",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
             "program": "${workspaceFolder}/CodingGym11.BankTransactionSimulation.Event/bin/Debug/netcoreapp3.1/CodingGym11.BankTransactionSimulation.Event.dll",
             "args": [],
             "cwd": "${workspaceFolder}/CodingGym11.BankTransactionSimulation.Event",
