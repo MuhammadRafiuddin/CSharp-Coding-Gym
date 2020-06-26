@@ -5,6 +5,17 @@
    "version": "0.2.0",
    "configurations": [
         {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CodingGym11.BankTransactionSimulation.Event/bin/Debug/netcoreapp3.1/CodingGym11.BankTransactionSimulation.Event.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CodingGym11.BankTransactionSimulation.Event",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": ".NET Core Launch CodingGym10",
             "type": "coreclr",
             "request": "launch",
