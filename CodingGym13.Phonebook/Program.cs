@@ -1,7 +1,7 @@
 ﻿using System;
 using ConsoleTables;
-using Phonebook.ContactManagers;
-using Phonebook.Models;
+using CodingGym13.Phonebook.ContactManagers;
+using CodingGym13.Phonebook.Models;
 
 namespace CodingGym13.Phonebook
 {
