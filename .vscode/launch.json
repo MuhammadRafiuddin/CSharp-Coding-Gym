@@ -5,6 +5,17 @@
    "version": "0.2.0",
    "configurations": [
         {
+            "name": ".NET Core Launch CodingGym07",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CodingGym07.TicTacToe/bin/Debug/netcoreapp3.1/CodingGym07.TicTacToe.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CodingGym07.TicTacToe",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": ".NET Core Launch CodingGym06",
             "type": "coreclr",
             "request": "launch",

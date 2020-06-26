@@ -7,6 +7,18 @@
             "type": "process",
             "args": [
                 "build",
+                "${workspaceFolder}/CodingGym07.TicTacToe/CodingGym07.TicTacToe.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
                 "${workspaceFolder}/CodingGym06.CrapsGame/CodingGym06.CrapsGame.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
