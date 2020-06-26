@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingGym11.BankTransaction
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingGym12.BankTransactionSimulation.EventArgs", "CodingGym12.BankTransactionSimulation.EventArgs\CodingGym12.BankTransactionSimulation.EventArgs.csproj", "{F89FF6B2-D055-4F51-9064-EE811855BDEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingGym13.Phonebook", "CodingGym13.Phonebook\CodingGym13.Phonebook.csproj", "{50E3E374-A1E3-434B-A7D4-394616F37F24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -184,5 +186,17 @@ Global
 		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Release|x64.Build.0 = Release|Any CPU
 		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Release|x86.ActiveCfg = Release|Any CPU
 		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Release|x86.Build.0 = Release|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Debug|x64.Build.0 = Debug|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Debug|x86.Build.0 = Debug|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Release|x64.ActiveCfg = Release|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Release|x64.Build.0 = Release|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Release|x86.ActiveCfg = Release|Any CPU
+		{50E3E374-A1E3-434B-A7D4-394616F37F24}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
