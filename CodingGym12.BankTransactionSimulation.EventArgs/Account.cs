@@ -1,4 +1,6 @@
-namespace CodingGym12.BankTransactionSimulation.EventArgs
+using System;
+
+namespace CodingGym12.BankTransactionSimulation.EventArgs_
 {
     public class TransactionEventArgs : EventArgs
     {

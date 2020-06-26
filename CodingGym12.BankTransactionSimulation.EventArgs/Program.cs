@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodingGym12.BankTransactionSimulation.EventArgs
+namespace CodingGym12.BankTransactionSimulation.EventArgs_
 {
     class Program
     {
