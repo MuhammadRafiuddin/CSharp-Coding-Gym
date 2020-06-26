@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingGym10.ShoppingCart.De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingGym11.BankTransactionSimulation.Event", "CodingGym11.BankTransactionSimulation.Event\CodingGym11.BankTransactionSimulation.Event.csproj", "{08DFBF75-5CAE-49FF-9F5B-EE1EA443ACC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingGym12.BankTransactionSimulation.EventArgs", "CodingGym12.BankTransactionSimulation.EventArgs\CodingGym12.BankTransactionSimulation.EventArgs.csproj", "{F89FF6B2-D055-4F51-9064-EE811855BDEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -170,5 +172,17 @@ Global
 		{08DFBF75-5CAE-49FF-9F5B-EE1EA443ACC9}.Release|x64.Build.0 = Release|Any CPU
 		{08DFBF75-5CAE-49FF-9F5B-EE1EA443ACC9}.Release|x86.ActiveCfg = Release|Any CPU
 		{08DFBF75-5CAE-49FF-9F5B-EE1EA443ACC9}.Release|x86.Build.0 = Release|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Debug|x64.Build.0 = Debug|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Debug|x86.Build.0 = Debug|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Release|x64.ActiveCfg = Release|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Release|x64.Build.0 = Release|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Release|x86.ActiveCfg = Release|Any CPU
+		{F89FF6B2-D055-4F51-9064-EE811855BDEE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
