@@ -102,8 +102,8 @@ namespace CodingGym14.GetWebServiceAsync
 
             Console.WriteLine("Calculate words statistic in the EBook...");
 
-            string longestWord = await longestWordTask;
             string[] tenMostCommon = await tenMostCommonTask;
+            string longestWord = await longestWordTask;            
 
             // Now that all tasks are complete, build a string to show all stats.
             StringBuilder bookStats = new StringBuilder();
