@@ -33,16 +33,17 @@ namespace CodingGym14.GetWebServiceAsync
                 // await GetStatsAsync();
                 await GetStatsBetterAsync();
             };
+
+            // I/O bound operation
+            webClient.DownloadStringAsync(new Uri("http://www.gutenberg.org/cache/epub/78/pg78.txt"));
+            // webClient.DownloadStringAsync(new Uri("https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt"));
+            Console.Write("Downloading EBook: ");
             
             webClient.DownloadProgressChanged += (object sender, DownloadProgressChangedEventArgs e) =>
             {
                 progress.Report((double)e.ProgressPercentage / 100);
             };            
-
-            // I/O bound operation
-            // webClient.DownloadStringAsync(new Uri("http://www.gutenberg.org/cache/epub/78/pg78.txt"));
-            webClient.DownloadStringAsync(new Uri("https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt"));
-            Console.Write("Downloading EBook: ");
+            
             Console.ReadLine();
         }
 
@@ -72,7 +73,7 @@ namespace CodingGym14.GetWebServiceAsync
                 if (finished == tenMostCommonTask)
                 {
                     tenMostCommon = tenMostCommonTask.Result;
-                    bookStats.AppendLine("\n10 most used words:");
+                    bookStats.AppendLine("\n10 most common words:");
                     foreach (string s in tenMostCommon)
                     {
                         bookStats.AppendLine($"- {s}");
@@ -106,7 +107,7 @@ namespace CodingGym14.GetWebServiceAsync
 
             // Now that all tasks are complete, build a string to show all stats.
             StringBuilder bookStats = new StringBuilder();
-            bookStats.AppendLine("\n10 most used words:\n");
+            bookStats.AppendLine("\n10 most common words:\n");
             foreach (string s in tenMostCommon)
             {
                 bookStats.AppendLine($"- {s}");
@@ -156,7 +157,7 @@ namespace CodingGym14.GetWebServiceAsync
 
             // Now that all tasks are complete, build a string to show all stats.
             StringBuilder bookStats = new StringBuilder();
-            bookStats.AppendLine("\n10 most used words:\n");
+            bookStats.AppendLine("\n10 most common words:\n");
             foreach (string s in tenMostCommon)
             {
                 bookStats.AppendLine($"- {s}");
