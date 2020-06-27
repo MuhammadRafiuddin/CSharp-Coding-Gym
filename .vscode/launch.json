@@ -13,7 +13,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/CodingGym14.GetWebServiceAsync",
             "stopAtEntry": false,
-            "console": "internalConsole"
+            "console": "externalTerminal"
         },
         {
             "name": ".NET Core Launch CodingGym13",
@@ -24,7 +24,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/CodingGym13.Phonebook",
             "stopAtEntry": false,
-            "console": "internalConsole"
+            "console": "externalTerminal"
         },
         {
             "name": ".NET Core Launch CodingGym13",
@@ -35,7 +35,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/CodingGym12.BankTransactionSimulation.EventArgs",
             "stopAtEntry": false,
-            "console": "internalConsole"
+            "console": "externalTerminal"
         },
         {
             "name": ".NET Core Launch CodingGym11",
@@ -46,7 +46,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/CodingGym11.BankTransactionSimulation.Event",
             "stopAtEntry": false,
-            "console": "internalConsole"
+            "console": "externalTerminal"
         },
         {
             "name": ".NET Core Launch CodingGym10",
@@ -57,7 +57,7 @@
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
-            "console": "internalConsole"
+            "console": "externalTerminal"
         },
         {
             "name": ".NET Core Launch CodingGym09",
@@ -68,7 +68,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/CodingGym09.BankTransactionSimulation",
             "stopAtEntry": false,
-            "console": "internalConsole"
+            "console": "externalTerminal"
         },
         {
             "name": ".NET Core Launch CodingGym08",
@@ -79,7 +79,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/CodingGym08.HangmanGame.List",
             "stopAtEntry": false,
-            "console": "internalConsole"
+            "console": "externalTerminal"
         },
         {
             "name": ".NET Core Launch CodingGym07",
@@ -90,7 +90,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/CodingGym07.TicTacToe",
             "stopAtEntry": false,
-            "console": "internalConsole"
+            "console": "externalTerminal"
         },
         {
             "name": ".NET Core Launch CodingGym06",
